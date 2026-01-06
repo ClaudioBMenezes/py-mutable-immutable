@@ -15,10 +15,15 @@ marks = {
     "Sergio": 3,
 }
 collection_of_coins = {1, 2, 25}
+total_variables = (lucky_number, pi, one_is_a_prime_number, name, my_favourite_films, profile_info, marks, collection_of_coins)
+pode_mudar = []
+nao_mudar = []
+for var in total_variables:
+    if isinstance(var, (list, dict, set)):
+        pode_mudar.append(var)
+    else:
+        nao_mudar.append(var)
 
-
-
-sorted_variables = {
-    "mutable": [my_favourite_films, marks, collection_of_coins],
-    "immutable": [lucky_number, pi, one_is_a_prime_number, name, profile_info]
-}
+sorted_variables = {"mutable": pode_mudar,
+                    "immutable": nao_mudar
+                   }
