@@ -16,4 +16,8 @@ marks = {
 }
 collection_of_coins = {1, 2, 25}
 
-# write your code here
+dicionario = {
+    "mutable": [lucky_number, pi, one_is_a_prime_number, name],
+    "immutable": [my_favourite_films, profile_info, collection_of_coins]
+
+}
