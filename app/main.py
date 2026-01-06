@@ -15,7 +15,8 @@ marks = {
     "Sergio": 3,
 }
 collection_of_coins = {1, 2, 25}
-total_variables = (lucky_number, pi, one_is_a_prime_number, name, my_favourite_films, profile_info, marks, collection_of_coins)
+total_variables = (lucky_number, pi, one_is_a_prime_number, name, my_favourite_films,
+                   profile_info, marks, collection_of_coins)
 pode_mudar = []
 nao_mudar = []
 for var in total_variables:
